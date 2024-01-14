@@ -1,0 +1,70 @@
+.nav {
+    font-size: 16px;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+}
+
+.btns:focus {
+    box-shadow: none;
+}
+
+.brand {
+    height: 65px;
+}
+
+.brand:active {
+    position: relative;
+    top: 1px;
+}
+
+.info_btns {
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    color: rgb(57, 62, 65);
+    background: none;
+    border:none;
+    border-radius: 15px;
+    transition: all 0.5s ease-out;
+}
+
+
+.info_btns:active {
+    position: relative;
+    top: 1px;
+}
+
+.action_btns {
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(57, 62, 65);
+    transition: all 0.4s ease-out;
+}
+
+
+.action_btns:active {
+    position: relative;
+    top: 1px;
+}
+
+.input {
+    width: 550px;
+}
+
+.input button {
+    padding: 0px 10px 0px 10px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: rgb(57, 62, 65);
+}
+
+.input input {
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}

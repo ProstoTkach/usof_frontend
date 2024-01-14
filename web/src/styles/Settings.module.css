@@ -1,0 +1,92 @@
+.frame {
+    border: 1px solid #ced4da;
+    border-radius: .375rem;
+    padding: .375rem .75rem;
+}
+
+.span {
+    color: rgb(57, 62, 65);
+}
+
+.input {
+    transition: all 0.5s ease-in-out;
+    color: rgb(57, 62, 65);
+}
+
+.inputfile {
+	width: 250px;
+    border: none;
+    border-radius: 15px;
+}
+
+.inputfile::file-selector-button {
+    font-size: 18px;
+    padding: 7px;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+}
+
+.inputClear {
+    border: none;
+    font-size: 24px;
+    color: rgb(194, 103, 23);
+    transition: all 0.4s ease-in-out;
+}
+
+.inputClear:hover {
+    color: rgb(197, 155, 118);
+}
+
+.inputClear:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.yes_btn {
+    padding: 7px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(57, 62, 65);
+    width: 200px;
+    transition: all 0.4s ease-out;
+}
+
+
+.yes_btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.no_btn {
+    padding: 7px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(57, 62, 65);
+    width: 200px;
+    transition: all 0.4s ease-out;
+}
+
+
+.no_btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.alert {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.close_btn {
+    position: absolute; 
+    right: 5%;
+}
+
+.close_btn:focus {
+    box-shadow: none;
+}

@@ -1,0 +1,52 @@
+.blur {
+    margin-top: 100px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 8px;
+}
+
+.brand {
+    height: 65px;
+}
+
+.brand:active {
+    position: relative;
+    top: 1px;
+}
+
+.my_form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input_label {
+    font-size: 10px;
+}
+
+.action_btn {
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+.action_btn:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.alert {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+}
+
+.close_btn {
+    position: absolute; 
+    right: 5%;
+}
+
+.close_btn:focus {
+    box-shadow: none;
+}

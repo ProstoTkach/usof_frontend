@@ -1,0 +1,40 @@
+.accordion {
+    --bs-accordion-color: rgb(57, 62, 65);
+    --bs-accordion-bg: rgba(227, 227, 227, 0.281);
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+} 
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='rgb(236, 241, 245)'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");;
+}
+
+.form-select {
+    transition: all 0.5s ease-in-out;
+    color: rgb(57, 62, 65);
+}
+
+.form-select:hover {
+    cursor: pointer;
+}
+
+.form-select:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.react-datepicker-wrapper {
+    display: flex;
+}
+
+.react-datepicker {
+    color: rgb(57, 62, 65);
+}
